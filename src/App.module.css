@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.nav {
+  width: 200px;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: var(--secondary-color);
+}
+
+.activeLink {
+  font-weight: bold;
+  color: var(--secondary-color) !important;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}

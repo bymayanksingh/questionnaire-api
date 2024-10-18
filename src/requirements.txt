@@ -1,0 +1,6 @@
+flask
+flask-sqlalchemy
+psycopg2-binary
+flask-migrate
+python-dotenv
+flask-swagger-ui
